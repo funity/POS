@@ -76,6 +76,39 @@
                 android:textColor="@color/colorBlack"
                 android:textColorHint="@color/hintColor" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="14dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Make"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerMake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/car_make"
+                    android:padding="8dp" />
+            </LinearLayout>
+
             <EditText
                 android:id="@+id/editTextMake"
                 android:layout_width="match_parent"
@@ -91,7 +124,8 @@
                 android:inputType="textPersonName"
                 android:padding="16dp"
                 android:textColor="@color/colorBlack"
-                android:textColorHint="@color/hintColor" />
+                android:textColorHint="@color/hintColor"
+                android:visibility="gone" />
 
             <EditText
                 android:id="@+id/editTextModel"
@@ -127,6 +161,39 @@
                 android:textColor="@color/colorBlack"
                 android:textColorHint="@color/hintColor" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="14dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Destination"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerDestination"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/destination"
+                    android:padding="8dp" />
+            </LinearLayout>
+
             <EditText
                 android:id="@+id/editTextDestination"
                 android:layout_width="match_parent"
@@ -142,24 +209,8 @@
                 android:inputType="textPersonName"
                 android:padding="16dp"
                 android:textColor="@color/colorBlack"
-                android:textColorHint="@color/hintColor" />
-
-            <EditText
-                android:id="@+id/editTextPropertyDescription"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="4dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/editTextTint"
-                android:ems="10"
-                android:fontFamily="@font/nunito"
-                android:hint="Description"
-                android:inputType="textPersonName"
-                android:padding="16dp"
-                android:textColor="@color/colorBlack"
-                android:textColorHint="@color/hintColor" />
+                android:textColorHint="@color/hintColor"
+                android:visibility="gone" />
 
             <EditText
                 android:id="@+id/editTextIssuedBy"
@@ -211,70 +262,6 @@
                 android:padding="16dp"
                 android:textColor="@color/colorBlack"
                 android:textColorHint="@color/hintColor" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/editTextTint"
-                android:orientation="horizontal"
-                android:paddingStart="10dp"
-                android:paddingTop="14dp"
-                android:paddingEnd="10dp"
-                android:paddingBottom="14dp"
-                android:visibility="gone">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/nunito"
-                    android:text="Property Type"
-                    android:textColor="@color/colorBlack"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinnerPropertyType"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="8dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="4dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:background="@drawable/rounded_corner"
-                android:backgroundTint="@color/editTextTint"
-                android:orientation="horizontal"
-                android:paddingStart="10dp"
-                android:paddingTop="14dp"
-                android:paddingEnd="10dp"
-                android:paddingBottom="14dp"
-                android:visibility="gone">
-
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/nunito"
-                    android:text="Lease Type"
-                    android:textColor="@color/colorBlack"
-                    android:textSize="18sp" />
-
-                <Spinner
-                    android:id="@+id/spinnerLeaseType"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="8dp" />
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
