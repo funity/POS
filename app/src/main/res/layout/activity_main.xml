@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextDriverLicenceNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Driver Licence Number"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextDriverName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Driver Name"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+
+            <EditText
+                android:id="@+id/editTextNationality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Nationality"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Make"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Car Model"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Branch"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Destination"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextPropertyDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Description"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextIssuedBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Issued By"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <EditText
+                android:id="@+id/editTextChasis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:ems="10"
+                android:fontFamily="@font/nunito"
+                android:hint="Chasis Number"
+                android:inputType="textPersonName"
+                android:padding="16dp"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/hintColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="14dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Property Type"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerPropertyType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="14dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="14dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Lease Type"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerLeaseType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Swimmingpool"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxSwimmingPool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/editTextTint"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nunito"
+                    android:text="Garden"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxGarden"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/buttonBackgroundColor"
+                android:fontFamily="@font/nunito_extrabold"
+                android:padding="10dp"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
